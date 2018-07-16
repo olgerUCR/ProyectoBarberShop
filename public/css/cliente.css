@@ -1,0 +1,64 @@
+.contenedor
+{
+    
+    margin:20px auto;
+    width: 1200px;
+    align-content: center;
+}
+
+table
+{
+    text-align: left;
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,tr
+{   
+    padding: 0;
+    align-content: flex-end;
+}
+
+th
+{   
+   /*height: 30%;*/
+/*    padding: 0;
+    align-content: flex-end;*/
+    
+    font:bold 20px Arial;
+}
+
+
+
+
+thead
+{
+    height: 100%;
+    background-color:#12B0F9;
+    border-bottom: 5px blue;
+}
+
+tr:nth-child(even)
+{
+    background: lightgray;
+    
+}
+
+tr:hover td
+{
+    background: #12F6F9;
+}
+
+footer {
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:10px;
+    width:100%;
+}
+
+
+

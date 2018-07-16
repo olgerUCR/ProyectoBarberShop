@@ -1,0 +1,31 @@
+#contInfo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contInfo > div:nth-child(1) {
+    text-align: center;
+    background-color: #4C6EEA;
+    color:white;
+    padding: 50px;
+    border-bottom: solid white 1px;
+}
+
+#contInfo > div:nth-child(2) {
+    text-align: center;
+    background-color: #4C6EEA;
+    color:white;
+    margin-top: 30px;             
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    display:flex;
+    flex-flow: row;
+}
+
+ 
+    
+    
+   
+body {
+    background-image: url("j.jpg") 
+}
